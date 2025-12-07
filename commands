@@ -1,0 +1,5 @@
+curl -X POST ^
+     -H "Content-Type: application/json" ^
+     -d "{\"id\":\"1\",\"value\":\"Hello API\"}" ^
+     http://interview-alb-996235617.ap-south-1.elb.amazonaws.com/item
+
